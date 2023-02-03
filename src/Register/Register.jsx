@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import '../App.css'
 import './Register.css'
 
-let backend_url = 'http://127.0.0.1:5000/'
+let backend_url = 'http://44.197.223.74:8080/'
 let validEmailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 let incorrectEmail = <p>Incorrect email format. Please change it</p>
 let usedEmailText = <p>Email in use. Please change it</p>
